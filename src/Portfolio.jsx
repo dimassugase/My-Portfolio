@@ -304,7 +304,7 @@ export default function Portfolio() {
       </section>
 
       {/* About Section */}
-      <section id="about" className={`py-16 md:py-24 px-6 ${darkMode ? 'bg-gray-800' : 'bg-white'}`}>
+      <section id="about" className={`py-16 md:py-24 px-6 ${darkMode ? 'bg-white' : 'bg-gray-800' }`}>
         <div className="container mx-auto max-w-6xl">
           <div className="flex items-center mb-12">
             <User size={24} className="text-blue-500 dark:text-blue-400 mr-3" />
@@ -318,7 +318,7 @@ export default function Portfolio() {
               </p>
               <br />
               <p className="font-normal">
-              <span className="text-blue-400 dark:text-blue-400">Selain itu,</span> saat ini Dimas sebagai fresh graduate lulusan tahun 2018 sedang mencari pekerjaan sesuai kemampuannya. 
+              <span className="text-blue-400 dark:text-blue-400">Selain itu,</span> Saya lulusan S1 Universitas Gunadarma jurusan Sistem Informasi-Ilmu Komputer pada tahun 2014-2018, Saya available Freelance dan sedang mencari pekerjaan sesuai kemampuannya. 
               </p>
               <br />
               <div className="grid grid-cols-2 gap-4">
