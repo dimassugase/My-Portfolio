@@ -304,7 +304,7 @@ export default function Portfolio() {
       </section>
 
       {/* About Section */}
-      <section id="about" className={`py-16 md:py-24 px-6 ${darkMode ? 'bg-white' : 'bg-gray-800' }`}>
+      <section id="about" className={`py-16 md:py-24 px-6 ${darkMode ? 'bg-gray-800' : 'bg-white' }`}>
         <div className="container mx-auto max-w-6xl">
           <div className="flex items-center mb-12">
             <User size={24} className="text-blue-500 dark:text-blue-400 mr-3" />
