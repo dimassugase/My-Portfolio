@@ -616,15 +616,52 @@ export default function Portfolio() {
             <BookOpen size={24} className="text-blue-500 dark:text-blue-400 mr-3" />
             <h2 className="text-3xl md:text-4xl font-bold">Education</h2>
           </div>
-          <div className="grid md:grid-cols-2 gap-8">
+          <div className="grid grid-cols-5 grid-rows-5 gap-4">
           <div className={`p-6 rounded-lg shadow-md ${darkMode ? 'bg-gray-700 hover:bg-gray-750' : 'bg-white hover:bg-blue-50'} transition-all transform hover:-translate-y-1`}>
-              <div className="flex items-center justify-between mb-4">
+              <div className="flex items-center justify-between mb-4 col-span-2 row-span-2">
                 <h3 className="text-xl font-bold">Universitas Gunadarma</h3>
                 <span className="text-blue-500 dark:text-blue-400">2022-2025</span>
               </div>
               <h4 className="text-lg font-semibold mb-3">Sistem Informasi,Ilmu Komputer</h4>
               <p className="font-normal mb-4">
                Selama 5 tahun, saya belajar berbagai macam bahasa pemrograman dan lulus setelah mengikuti Uji Kompetensi dan Pelatihan. Selain itu, saya juga mengikuti organisasi Himpunan Mahasiswa Informasi sebagai Anggota. Dari sini terbentuk Soft Skills dan Hard Skills.
+              </p>
+              <ul className="flex flex-wrap gap-2">
+                <li className="px-3 py-1 text-sm bg-blue-100  dark:bg-blue-900/50 text-blue-800 dark:text-white rounded-full">
+                  HTML
+                </li>
+                <li className="px-3 py-1 text-sm bg-blue-100 dark:bg-blue-900/50 text-white dark:text-white rounded-full">
+                 CSS
+                </li>
+                <li className="px-3 py-1 text-sm bg-blue-100 dark:bg-blue-900/50 text-white dark:text-white rounded-full">
+                  JavaScript
+                </li>
+                <li className="px-3 py-1 text-sm bg-blue-100 dark:bg-blue-900/50 text-white dark:text-white rounded-full">
+                  Java
+                </li>
+                <li className="px-3 py-1 text-sm bg-blue-100 dark:bg-blue-900/50 text-white dark:text-white rounded-full">
+                  Worpress
+                </li>
+                <li className="px-3 py-1 text-sm bg-blue-100 dark:bg-blue-900/50 text-white dark:text-white rounded-full">
+                  PHP/Laravel/CI4
+                </li>
+                <li className="px-3 py-1 text-sm bg-blue-100 dark:bg-blue-900/50 text-white dark:text-white rounded-full">
+                 MySQL/PostgreSQL
+                </li>
+                <li className="px-3 py-1 text-sm bg-blue-100 dark:bg-blue-900/50 text-white dark:text-white rounded-full">
+                  Express JS/Node JS
+                </li>
+              </ul>
+            </div>
+             <div className="grid grid-cols-5 grid-rows-5 gap-4">
+          <div className={`p-6 rounded-lg shadow-md ${darkMode ? 'bg-gray-700 hover:bg-gray-750' : 'bg-white hover:bg-blue-50'} transition-all transform hover:-translate-y-1`}>
+              <div className="flex items-center justify-between mb-4 col-span-2 row-span-2 col-start-4">
+                <h3 className="text-xl font-bold">SMKN 5 Kota Bekasi</h3>
+                <span className="text-blue-500 dark:text-blue-400">2012-1014</span>
+              </div>
+              <h4 className="text-lg font-semibold mb-3">Teknik Elektronika Industri</h4>
+              <p className="font-normal mb-4">
+               Selama 3 tahun, saya belajar berbagai macam bahasa pemrograman dan lulus setelah mengikuti Uji Kompetensi dan Pelatihan. Selain itu, saya juga mengikuti organisasi Himpunan Mahasiswa Informasi sebagai Anggota. Dari sini terbentuk Soft Skills dan Hard Skills.
               </p>
               <ul className="flex flex-wrap gap-2">
                 <li className="px-3 py-1 text-sm bg-blue-100  dark:bg-blue-900/50 text-blue-800 dark:text-white rounded-full">
