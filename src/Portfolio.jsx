@@ -79,11 +79,11 @@ export default function Portfolio() {
 
   const projects = [
     {
-      title: "Jasa Laser Cutting GRCC",
-      description: "Aplikasi android menggunakan flutter untuk sistem pembayaran kasir sekolah",
-      tech: ["React JS", "Bootstrap", "Mariadb"],
-      image: "/assets/jasalassercuttinggrcc.JPG",
-      link: "https://jasalassercuttinggrcc.com"
+      title: "Tojo Ijo Ecommerce",
+      description: "Website Tojo Ijo Ecommerce online by Project",
+      tech: ["React JS", "TailwindV4", "Mysql", ],
+      image: "/assets/tokoijo-1.JPG",
+      link: "https://github.com/dimassugase"
     },
     {
       title: "Laser Cutting Patriot",
@@ -441,7 +441,7 @@ export default function Portfolio() {
     </div>
     <div className="text-center mt-8">
       <a 
-        href="https://github.com/dimassugaset" target="_blank"
+        href="https://github.com/dimassugase" target="_blank"
         className="inline-flex items-center px-6 py-3 border border-blue-500 dark:border-blue-400 text-blue-500 dark:text-blue-400 hover:bg-blue-50 dark:hover:bg-blue-900/30 rounded-md transition-transform hover:-translate-y-1"
       >
         View More Project <ArrowRight size={16} className="ml-2" />
@@ -687,7 +687,7 @@ export default function Portfolio() {
                   </div>
                   <div>
                     <h4 className="font-semibold">GitHub</h4>
-                    <a href="https://github.com/dimassugase" target="_blank" rel="noopener noreferrer" className="text-blue-500 dark:text-blue-400 hover:underline">dimassugaset</a>
+                    <a href="https://github.com/dimassugase" target="_blank" rel="noopener noreferrer" className="text-blue-500 dark:text-blue-400 hover:underline">dimassugase</a>
                   </div>
                 </div>
                 <div className="flex items-center">
@@ -780,7 +780,7 @@ export default function Portfolio() {
             </div>
             <div className="flex space-x-4">
               <a 
-                href="https://github.com/dimassugaset" 
+                href="https://github.com/dimassugase" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="w-10 h-10 rounded-full bg-gray-200 dark:bg-gray-700 flex items-center justify-center hover:bg-blue-100 dark:hover:bg-blue-900/50 transition-colors"
