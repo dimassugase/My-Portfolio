@@ -90,7 +90,7 @@ export default function Portfolio() {
       description: "Aplikasi yang dibuat dengan React JS dalam tugas Capstone Coding Camp 2025",
       tech: ["React JS", "Bootstrap", "Mariadb"],
       image: "/assets/patriotlasercut.JPG",
-      link: "https://www.jasalasercuttingacp.com/"
+      link: "https://patriotlasercncrouter.com/"
     },
     {
       title: "Jasa Laser Cutting ACP",
@@ -620,11 +620,11 @@ export default function Portfolio() {
           <div className={`p-6 rounded-lg shadow-md ${darkMode ? 'bg-gray-700 hover:bg-gray-750' : 'bg-white hover:bg-blue-50'} transition-all transform hover:-translate-y-1`}>
               <div className="flex items-center justify-between mb-4">
                 <h3 className="text-xl font-bold">Universitas Gunadarma</h3>
-                <span className="text-blue-500 dark:text-blue-400">2022-2025</span>
+                <span className="text-blue-500 dark:text-blue-400">2014-2018</span>
               </div>
               <h4 className="text-lg font-semibold mb-3">Sistem Informasi,Ilmu Komputer</h4>
               <p className="font-normal mb-4">
-               Selama 5 tahun, saya belajar berbagai macam bahasa pemrograman dan lulus setelah mengikuti Uji Kompetensi dan Pelatihan. Selain itu, saya juga mengikuti organisasi Himpunan Mahasiswa Informasi sebagai Anggota. Dari sini terbentuk Soft Skills dan Hard Skills.
+               Selama 4 tahun, saya belajar berbagai macam bahasa pemrograman dan lulus setelah mengikuti Uji Kompetensi dan Pelatihan. Selain itu, saya juga mengikuti organisasi Himpunan Mahasiswa Informasi sebagai Anggota. Dari sini terbentuk Soft Skills dan Hard Skills.
               </p>
               <ul className="flex flex-wrap gap-2">
                 <li className="px-3 py-1 text-sm bg-blue-100  dark:bg-blue-900/50 text-blue-800 dark:text-white rounded-full">
@@ -643,7 +643,7 @@ export default function Portfolio() {
                   Worpress
                 </li>
                 <li className="px-3 py-1 text-sm bg-blue-100 dark:bg-blue-900/50 text-white dark:text-white rounded-full">
-                  PHP/Laravel/CI4
+                  Reactjs,Nextjs,Vuejs
                 </li>
                 <li className="px-3 py-1 text-sm bg-blue-100 dark:bg-blue-900/50 text-white dark:text-white rounded-full">
                  MySQL/PostgreSQL
