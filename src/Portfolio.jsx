@@ -90,14 +90,14 @@ export default function Portfolio() {
       description: "Aplikasi yang dibuat dengan React JS dalam tugas Capstone Coding Camp 2025",
       tech: ["React JS", "Bootstrap", "Mariadb"],
       image: "/assets/patriotlasercut.JPG",
-      link: "https://sipa-capstone.vercel.app/"
+      link: "https://www.jasalasercuttingacp.com/"
     },
     {
-      title: "Jasa Laser Cutting PVC",
+      title: "Jasa Laser Cutting ACP",
       description: "Website Sekolah yang dibuat dalam tugas Uji Kompetensi",
       tech: ["Wordpress", "Elementor", "Bootstrap"],
       image: "/assets/jasalassercuttinggrcc.JPG",
-      link: "https://github.com/dimassugaset"
+      link: "https://www.jasalasercuttingacp.com/"
     }
   ];
 
@@ -687,7 +687,7 @@ export default function Portfolio() {
                   </div>
                   <div>
                     <h4 className="font-semibold">GitHub</h4>
-                    <a href="https://github.com/dimassugaset" target="_blank" rel="noopener noreferrer" className="text-blue-500 dark:text-blue-400 hover:underline">dimassugaset</a>
+                    <a href="https://github.com/dimassugase" target="_blank" rel="noopener noreferrer" className="text-blue-500 dark:text-blue-400 hover:underline">dimassugaset</a>
                   </div>
                 </div>
                 <div className="flex items-center">
