@@ -80,21 +80,21 @@ export default function Portfolio() {
   const projects = [
     {
       title: "Tojo Ijo Ecommerce",
-      description: "Website Tojo Ijo Ecommerce online by Project",
+      description: "Website Tojo Ijo Ecommerce online by Project Freelance",
       tech: ["React JS", "TailwindV4", "Mysql", ],
       image: "/assets/tokoijo-1.JPG",
       link: "https://github.com/dimassugase"
     },
     {
       title: "Laser Cutting Patriot",
-      description: "Aplikasi yang dibuat dengan React JS dalam tugas Capstone Coding Camp 2025",
+      description: "Website Jasa Laser Cutting dengan berbagai banyak hasil dan contoh penjualan",
       tech: ["React JS", "Bootstrap", "Mariadb"],
       image: "/assets/patriotlasercut.JPG",
       link: "https://patriotlasercncrouter.com/"
     },
     {
       title: "Jasa Laser Cutting ACP",
-      description: "Website Sekolah yang dibuat dalam tugas Uji Kompetensi",
+      description: "Website Company Profile dibuat untuk informasi segala hal perusahaan",
       tech: ["Wordpress", "Elementor", "Bootstrap"],
       image: "/assets/jasalassercuttinggrcc.JPG",
       link: "https://www.jasalasercuttingacp.com/"
@@ -113,7 +113,7 @@ export default function Portfolio() {
     {
       company: "PT.Sarana Media Kreasi",
       position: "Frontend dan Backend Developer",
-      period: "20 Desember 2022 - 31 Januari 2025",
+      period: "20 Desember 2022 - 31 Desember 2024",
       description: "Wordpres,Html,Css,Php.Js,Canva,Rewrite,CMS."
     },
     {
