@@ -82,7 +82,7 @@ export default function Portfolio() {
       title: "Super Contact CRM Company",
       description: "Website Super Contact Admin Dashboard CRM Company",
       tech: ["React.js", "Next.js", "TailwindV4", "Material UI", "Axios", "Fast API"],
-      image: "/assets/Login-page.JPG",
+      image: "/assets/Login-page.png",
       link: "https://supercontact-web.vercel.app/login"
     },
     {
