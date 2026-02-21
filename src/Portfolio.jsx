@@ -79,9 +79,16 @@ export default function Portfolio() {
 
   const projects = [
     {
+      title: "Super Contact CRM Company",
+      description: "Website Super Contact Admin Dashboard CRM Company",
+      tech: ["React.js", "Next.js", "TailwindV4", "Material UI", "Axios", "Fast API"],
+      image: "/assets/Login-page.JPG",
+      link: "https://supercontact-web.vercel.app/login"
+    },
+    {
       title: "Tojo Ijo Ecommerce",
       description: "Website Tojo Ijo Ecommerce online by Project Freelance",
-      tech: ["React JS", "TailwindV4", "Mysql", ],
+      tech: ["React JS", "TailwindV4", "Mysql", "Express.js"],
       image: "/assets/tokoijo-1.JPG",
       link: "https://github.com/dimassugase"
     },
@@ -111,10 +118,16 @@ export default function Portfolio() {
 
   const experiences = [
     {
+      company: "PT.Solvera Global Teknologi",
+      position: "Frontend Developer Remote",
+      period: "1 November 2025 - Present",
+      description: "Reacttjs,Nextjs,TailwindV4,Material UI,Axios,Fast API"
+    },
+    {
       company: "PT.Sarana Media Kreasi",
-      position: "Frontend dan Backend Developer",
+      position: "Website Developer Wordpress",
       period: "20 Desember 2022 - 31 Desember 2024",
-      description: "Wordpres,Html,Css,Php.Js,Canva,Rewrite,CMS."
+      description: "Wordpres,Elementor,Astra,CMS,Content Writer,Canva Design"
     },
     {
       company: "Freelance Video Editor and Content Creator",
